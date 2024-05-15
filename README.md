@@ -1,7 +1,6 @@
 <p align="center">  
   <a href="https://whatsapp.com/channel/0029VaaKnqA4NVib8XMwyw2T">
     <img alt="Leo" height="300" src="https://telegra.ph/file/cf73122e946882a82f348.jpg">
-    <h1 align="center">LEO-MD 2.5.O</h1>
   </a>
 </p>
 <p align="center">
