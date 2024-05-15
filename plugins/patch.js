@@ -369,7 +369,7 @@ ${menuThemeFooter}
          caption: menuText,
          ephemeralExpiration: 30,
        };
-       return await m.bot.sendMessage(m.chat, { text: menuText });
+       return await message.bot.sendMessage(m.chat, { text: menuText });
     } catch (error) {
       await message.error(error + "\nCommand: menu", error);
     }
