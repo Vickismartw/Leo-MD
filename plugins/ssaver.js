@@ -81,7 +81,7 @@ smd({ on: "text" }, async (message, text, { icmd }) => {
     )
       message.bot.sendPresenceUpdate(waPresence, message.from);
     if (message.isAstro && !message.fromMe && !message.text.startsWith("$"))
-      message.react("🤖");
+      message.react("🙇");
   } catch (e) {
     console.log(e);
   }
