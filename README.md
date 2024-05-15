@@ -28,12 +28,12 @@ LEO-MD- Simple Multi Device whatsapp bot.
 
 2. Get Session ID (PAIRING)
     <br>
-<a href='https://parinf-0c0336c79626.herokuapp.com/pair' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://leo-sess-b23864d3bcac.herokuapp.com/pair' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
 3. Get Session ID (SCAN QR)
     <br>
-<a href='https://asta-app-52c5fcbed3fa.herokuapp.com/qr' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://leo-sess-b23864d3bcac.herokuapp.com/qr' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
 #### DEPLOY TO HEROKU
