@@ -321,7 +321,7 @@ ${menuThemeCommandPrefix} │Uptime: ${runtime(process.uptime())}
 ${menuThemeFooter}                         
 `;*/
       let menuText = `
-╭═════ Yuta-Md ═════⊷ 
+╭═════ Leo-MD ═════⊷ 
 ┃✯╭──────────────
 ┃✯│Prefix: ${Config.HANDLERS}
 ┃✯│User: ${Config.ownername}
@@ -593,7 +593,7 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `Yuta-Md\n\n*Speed:* ${pingSeconds} seconds`;
+          const captionText = `Leo-MD\n\n*Speed:* ${pingSeconds} seconds`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -615,7 +615,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `Yuta-Md\n\n*Speed:* ${pingSeconds} seconds`;
+          const captionText = `Leo-MD\n\n*Speed:* ${pingSeconds} seconds`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -684,13 +684,13 @@ smd(
 
       const ramUsage = process.memoryUsage().heapTotal / 1024 / 1024;
 
-      const message = `*Yuta-Md alive sɪɴᴄᴇ:* ${uptimeHours}h ${uptimeMinutes}ᴍ ${uptimeSeconds}s\n \t_ʜᴇʀᴇ's ᴍᴏʀᴇ ɪɴғᴏ_\n*ʀᴀᴍ ᴜsᴀɢᴇ:* ${ramUsage.toFixed(2)} MB\n*ᴄᴘᴜ ɴᴀᴍᴇ:* ${cpuModel}`;
+      const message = `*Leo-MD alive sɪɴᴄᴇ:* ${uptimeHours}h ${uptimeMinutes}ᴍ ${uptimeSeconds}s\n \t_ʜᴇʀᴇ's ᴍᴏʀᴇ ɪɴғᴏ_\n*ʀᴀᴍ ᴜsᴀɢᴇ:* ${ramUsage.toFixed(2)} MB\n*ᴄᴘᴜ ɴᴀᴍᴇ:* ${cpuModel}`;
       const contextInfo = {
         isForwarded: false,
         //forwardingScore: 999,
-        title: "Yuta-Md alive Since",
+        title: "Leo-MD alive Since",
         body: message,
-        footerText: "Yuta-Md",
+        footerText: "Leo-MD",
         isSendNotificationMsg: true,
         mentionedJid: [],
       };
