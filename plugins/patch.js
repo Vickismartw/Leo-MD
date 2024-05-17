@@ -577,7 +577,7 @@ smd(
       const designs = [
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/2f30334adc87517e435c1.png",
+            "https://ibb.co/KsWPv3Q",
             {
               responseType: "arraybuffer",
             }
@@ -600,7 +600,7 @@ smd(
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/2f30334adc87517e435c1.png",
+            "https://ibb.co/KsWPv3Q",
             {
               responseType: "arraybuffer",
             }
@@ -622,7 +622,7 @@ smd(
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/2f30334adc87517e435c1.png",
+            "https://ibb.co/KsWPv3Q",
             {
               responseType: "arraybuffer",
             }
