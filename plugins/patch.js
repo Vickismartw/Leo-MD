@@ -366,10 +366,11 @@ ${menuThemeFooter}
       //menuText += Config.caption;
 
       const messageOptions = {
-        caption: menuText
+        caption: menuText,
+        ephemeralExpiration: 30,
       };
-      //return await Void.sendMessage(message.chat, menuText);
-      return await message.send(menuText)
+      return await message.sendUi(message.chat, messageOptions, message);
+      //return await message.send(menuText)
     } catch (error) {
       await message.error(error + "\nCommand: menu", error);
     }
